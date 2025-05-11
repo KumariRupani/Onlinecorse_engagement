@@ -1,6 +1,4 @@
--- Use the youtube database (if it exists)
 USE youtube;
-
 -- Insert new sample data into Users table (avoiding duplicates)
 INSERT INTO Users (user_name, email, registration_date)
 VALUES 
